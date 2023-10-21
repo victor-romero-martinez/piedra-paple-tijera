@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Piedra | Papel | Tijera</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <p class="counter">total: <span id="total">0</span></p>
+        <h1 id="title">Elige</h1>
+        <div class="btn-section">
+          <button id="piedra">✊</button>
+          <button id="papel">✋</button>
+          <button id="tijera">✌</button>
+        </div>
+        <div class="match">
+          <h2>Player: <span id="player-select">?</span></h2>
+          <h2>=</h2>
+          <h2>CPU: <span id="cpu-select">?</span></h2>
+        </div>
+        <div class="details">
+          <p>ganados: <span id="ganados">0</span></p>
+          <p>empates: <span id="empates">0</span></p>
+          <p>perdidos: <span id="perdidos">0</span></p>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script type="module" src="main.js"></script>
+</html>

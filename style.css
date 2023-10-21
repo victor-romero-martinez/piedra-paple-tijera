@@ -1,0 +1,56 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  min-width: 270px;
+  border: 2px solid seashell;
+  position: relative;
+  padding: 20px 40px;
+  border-radius: 1vmax;
+}
+
+.counter {
+  position: absolute;
+  right: 10px;
+  top: -10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn-section {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  font-size: x-large;
+  background-color: transparent;
+  width: 30%;
+  border-color: seashell;
+  border-radius: 1vmax;
+}
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
